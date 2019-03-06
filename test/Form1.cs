@@ -21,5 +21,13 @@ namespace test
         {
 
         }
+        private void btnTru_Click(object sender, EventArgs e)
+        {
+            double txtKetQua = 0;
+            double a = 1;
+            double b = 2;
+            double c = a - b;
+            txtKetQua = c;
+        }
     }
 }
