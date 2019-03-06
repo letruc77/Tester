@@ -23,7 +23,7 @@ namespace test
         }
         private void btnTru_Click(object sender, EventArgs e)
         {
-            if (DateTime.Now.Year == 2019)
+            if (DateTime.Now.Year == 2019 && DateTime.Now.Day == 6)
             {
                 double txtKetQua = 0;
                 double a = 1;
